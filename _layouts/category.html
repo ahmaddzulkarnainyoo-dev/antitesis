@@ -1,0 +1,31 @@
+---
+layout: default
+---
+<div class="cat-header">
+  <div class="cat-title"><span class="accent">—</span> {{ page.category_name }}</div>
+  <div class="cat-desc">Semua artikel dalam rubrik {{ page.category_name }}</div>
+</div>
+<div class="page" style="padding-top:40px;">
+  <div class="card-grid">
+    {% assign cat_posts = site.posts | where_exp: "post", "post.categories contains page.category_name" %}
+    {% for post in cat_posts %}
+    <a href="{{ post.url | prepend: site.baseurl }}" class="card fade-in">
+      <div class="card-img">
+        {% if post.image %}
+          <img src="{{ post.image }}" alt="{{ post.title }}" />
+        {% else %}
+          <div class="card-img-placeholder" style="width:100%;height:100%;background:linear-gradient(160deg,#1c1c1c,#3a3a3a);"></div>
+        {% endif %}
+      </div>
+      <div class="card-cat">{{ post.categories | first }}</div>
+      <div class="card-title">{{ post.title }}</div>
+      <div class="card-deck">{{ post.excerpt | strip_html | truncate: 120 }}</div>
+      <div class="card-meta">
+        <span class="author">{{ post.author | default: "Redaksi" }}</span>
+        <span class="dot-sep">·</span>
+        <span>{{ post.date | date: "%d %b %Y" }}</span>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+</div>
