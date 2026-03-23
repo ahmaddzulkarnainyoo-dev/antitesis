@@ -1,25 +1,2 @@
 backend:
   name: github
-
-media_folder: "assets/img/uploads"
-public_folder: "/assets/img/uploads"
-
-collections:
-  - name: "posts"
-    label: "Artikel"
-    folder: "_posts"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - { label: "Judul", name: "title", widget: "string" }
-      - label: "Kategori"
-        name: "categories"
-        widget: "select"
-        options: ["Politik", "Ekonomi", "Hukum", "Sosial", "Opini", "Investigasi"]
-      - { label: "Penulis", name: "author", widget: "string" }
-      - { label: "Jabatan Penulis", name: "author_role", widget: "string", required: false }
-      - { label: "Tanggal Terbit", name: "date", widget: "datetime" }
-      - { label: "Ringkasan", name: "excerpt", widget: "text" }
-      - { label: "Foto Utama", name: "image", widget: "image", required: false }
-      - { label: "Estimasi Baca (menit)", name: "read_time", widget: "number", required: false }
-      - { label: "Isi Artikel", name: "body", widget: "markdown" }
