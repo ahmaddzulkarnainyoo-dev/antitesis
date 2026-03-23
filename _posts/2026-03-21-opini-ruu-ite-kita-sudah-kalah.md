@@ -1,14 +1,11 @@
 ---
-layout: post
 title: "RUU ITE Jilid Dua: Kita Sudah Kalah Sebelum Berdebat"
-categories: [Opini]
-author: "Taufan Prasetyo"
-author_role: "Ahli Hukum Digital"
-date: 2026-03-21 08:00:00 +0700
-excerpt: "Setiap kali regulasi digital dibahas, kita selalu datang terlambat. Bukan karena tidak tahu, tapi karena tidak diajak bicara sejak awal."
-read_time: 9
+categories: Hukum
+author: ahmad dzulkarnain
+date: 2026-03-23
+excerpt: Setiap kali regulasi digital dibahas, kita selalu datang terlambat.
+  Bukan karena tidak tahu, tapi karena tidak diajak bicara sejak awal.
 ---
-
 Setiap kali regulasi digital dibahas, kita selalu datang terlambat. Bukan karena tidak tahu, tapi karena memang tidak diajak bicara sejak awal.
 
 ## Pola yang Berulang
