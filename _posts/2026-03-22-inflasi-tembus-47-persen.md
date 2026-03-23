@@ -6,6 +6,7 @@ date: 2026-03-23
 excerpt: Badan Pusat Statistik mencatat inflasi Februari mencapai angka
   tertinggi dalam tiga tahun terakhir, didorong oleh kenaikan harga beras dan
   minyak goreng.
+image: /assets/img/uploads/d4fb63b99f57f6b8347da885621acacc.png
 ---
 Badan Pusat Statistik mencatat inflasi Februari mencapai 4,7 persen — angka tertinggi dalam tiga tahun terakhir.
 
