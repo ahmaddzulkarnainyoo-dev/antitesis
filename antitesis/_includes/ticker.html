@@ -1,0 +1,10 @@
+<div class="ticker-wrap">
+  <div class="ticker-label">Breaking</div>
+  <div style="overflow:hidden;flex:1;display:flex;">
+    <div class="ticker-track">
+      {% assign recent = site.posts | limit: 6 %}
+      {% for post in recent %}<span>{{ post.title }}</span>{% endfor %}
+      {% for post in recent %}<span>{{ post.title }}</span>{% endfor %}
+    </div>
+  </div>
+</div>

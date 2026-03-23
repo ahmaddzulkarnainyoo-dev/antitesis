@@ -1,0 +1,27 @@
+title: "Antitesis"
+description: "Berita yang berani beda — independen, dalam, tanpa basa-basi."
+url: "https://antitesis.id"
+baseurl: ""
+
+author: "Redaksi Antitesis"
+email: "redaksi@antitesis.id"
+lang: id
+
+markdown: kramdown
+permalink: /:categories/:year/:month/:day/:title/
+timezone: Asia/Jakarta
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+
+paginate: 10
+paginate_path: "/page/:num/"
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
