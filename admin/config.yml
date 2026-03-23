@@ -2,8 +2,8 @@ backend:
   name: github
   repo: ahmaddzulkarnainyoo-dev/antitesis
   branch: main
-  base_url: https://antitesis.pages.dev
-  auth_endpoint: /auth
+  auth_type: pkce
+  app_id: GITHUB_CLIENT_ID_LO
 
 media_folder: "assets/img/uploads"
 public_folder: "/assets/img/uploads"
