@@ -1,14 +1,12 @@
 ---
-layout: post
-title: "Inflasi Tembus 4,7 Persen, BPS Sebut Harga Pangan Jadi Pemicu Utama"
-categories: [Ekonomi]
-author: "Bimo Satryo"
-author_role: "Wartawan Ekonomi"
-date: 2026-03-22 09:00:00 +0700
-excerpt: "Badan Pusat Statistik mencatat inflasi Februari mencapai angka tertinggi dalam tiga tahun terakhir, didorong oleh kenaikan harga beras dan minyak goreng."
-read_time: 7
+title: Inflasi Tembus 4,7 Persen, BPS Sebut Harga Pangan Jadi Pemicu Utama
+categories: Ekonomi
+author: ahmad dzulkarnain
+date: 2026-03-23
+excerpt: Badan Pusat Statistik mencatat inflasi Februari mencapai angka
+  tertinggi dalam tiga tahun terakhir, didorong oleh kenaikan harga beras dan
+  minyak goreng.
 ---
-
 Badan Pusat Statistik mencatat inflasi Februari mencapai 4,7 persen — angka tertinggi dalam tiga tahun terakhir.
 
 ## Faktor Pendorong
