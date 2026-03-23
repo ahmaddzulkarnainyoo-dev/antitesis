@@ -1,8 +1,7 @@
-const CLIENT_ID = globalThis.GITHUB_CLIENT_ID;
-const CLIENT_SECRET = globalThis.GITHUB_CLIENT_SECRET;
-
 export async function onRequest(context) {
-  const { request } = context;
+  const { request, env } = context;
+  const CLIENT_ID = env.GITHUB_CLIENT_ID;
+  const CLIENT_SECRET = env.GITHUB_CLIENT_SECRET;
   const url = new URL(request.url);
   const path = url.pathname.replace('/auth', '');
 
