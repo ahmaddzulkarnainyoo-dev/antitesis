@@ -3,9 +3,33 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Admin — Antitesis CMS</title>
+  <title>Admin — Antitesis</title>
 </head>
 <body>
-  <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
-</body>
-</html>
+  <script src="https://unpkg.com/decap-cms@^3.1.2/dist/decap-cms.js"></script>
+  <script>
+    CMS.init({
+      config: {
+        backend: {
+          name: 'github',
+          repo: 'ahmaddzulkarnainyoo-dev/antitesis',
+          branch: 'main',
+          auth_type: 'pkce',
+          app_id: 'Ov23liPjYrhYmAHJ0fMt'
+        },
+        media_folder: 'assets/img/uploads',
+        public_folder: '/assets/img/uploads',
+        collections: [{
+          name: 'posts',
+          label: 'Artikel',
+          folder: '_posts',
+          create: true,
+          slug: '{{year}}-{{month}}-{{day}}-{{slug}}',
+          fields: [
+            { label: 'Judul', name: 'title', widget: 'string' },
+            { label: 'Kategori', name: 'categories', widget: 'select', options: ['Politik','Ekonomi','Hukum','Sosial','Opini','Investigasi'] },
+            { label: 'Penulis', name: 'author', widget: 'string' },
+            { label: 'Jabatan Penulis', name: 'author_role', widget: 'string', required: false },
+            { label: 'Tanggal Terbit', name: 'date', widget: 'datetime' },
+            { label: 'Ringkasan', name: 'excerpt', widget: 'text' },
+            {
