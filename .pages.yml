@@ -1,3 +1,6 @@
+media:
+  input: assets/img/uploads
+  output: /assets/img/uploads
 content:
   - name: Artikel
     path: _posts
