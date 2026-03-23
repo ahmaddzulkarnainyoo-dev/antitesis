@@ -3,7 +3,7 @@ backend:
   repo: ahmaddzulkarnainyoo-dev/antitesis
   branch: main
   auth_type: pkce
-  app_id: GITHUB_CLIENT_ID_LO
+  app_id: Ov23liPjYrhYmAHJ0fMt
 
 media_folder: "assets/img/uploads"
 public_folder: "/assets/img/uploads"
