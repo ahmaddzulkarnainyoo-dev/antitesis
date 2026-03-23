@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: GITHUB_USERNAME/REPO_NAME   # <-- ganti ini
+  repo: ahmaddzulkarnainyoo-dev/antitesis   # <-- ganti ini
   branch: main
 
 media_folder: "assets/img/uploads"
