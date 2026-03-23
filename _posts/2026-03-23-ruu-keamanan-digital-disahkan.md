@@ -1,14 +1,12 @@
 ---
-layout: post
-title: "RUU Keamanan Digital Disahkan — Siapa yang Sebenarnya Dilindungi?"
-categories: [Investigasi]
-author: "Rizky Anandita"
-author_role: "Jurnalis Investigasi"
-date: 2026-03-23 10:00:00 +0700
-excerpt: "Di balik narasi perlindungan data warga, sejumlah pasal justru membuka celah bagi pemerintah untuk mengawasi ruang digital tanpa persetujuan pengadilan."
-read_time: 12
+title: RUU Keamanan Digital Disahkan — Siapa yang Sebenarnya Dilindungi?
+categories: Hukum
+author: ahmad dzulkarnain
+date: 2026-03-23
+excerpt: Di balik narasi perlindungan data warga, sejumlah pasal justru membuka
+  celah bagi pemerintah untuk mengawasi ruang digital tanpa persetujuan
+  pengadilan.
 ---
-
 Di balik narasi perlindungan data warga, sejumlah pasal dalam regulasi baru itu justru membuka celah bagi pemerintah untuk mengawasi ruang digital tanpa persetujuan pengadilan.
 
 ## Apa yang Disahkan?
