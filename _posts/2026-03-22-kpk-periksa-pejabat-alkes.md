@@ -1,14 +1,11 @@
 ---
-layout: post
-title: "KPK Periksa Tiga Pejabat Kementerian dalam Kasus Pengadaan Alkes Rp 2,1 Triliun"
-categories: [Hukum]
-author: "Yolanda Hutasoit"
-author_role: "Wartawan Hukum"
-date: 2026-03-22 14:00:00 +0700
-excerpt: "Komisi Pemberantasan Korupsi memanggil tiga pejabat eselon dua untuk diperiksa sebagai saksi dalam kasus dugaan korupsi pengadaan alat kesehatan."
-read_time: 5
+title: KPK Periksa Tiga Pejabat Kementerian dalam Kasus Pengadaan Alkes Rp 2,1 Triliun
+categories: Hukum
+author: ahmad dzulkarnain
+date: 2026-03-23
+excerpt: Komisi Pemberantasan Korupsi memanggil tiga pejabat eselon dua untuk
+  diperiksa sebagai saksi dalam kasus dugaan korupsi pengadaan alat kesehatan.
 ---
-
 Komisi Pemberantasan Korupsi memanggil tiga pejabat eselon dua Kementerian Kesehatan untuk diperiksa sebagai saksi dalam kasus dugaan korupsi pengadaan alat kesehatan senilai Rp 2,1 triliun.
 
 ## Kronologi Kasus
