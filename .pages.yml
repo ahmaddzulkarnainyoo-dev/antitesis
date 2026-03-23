@@ -1,0 +1,32 @@
+content:
+  - name: Artikel
+    path: _posts
+    filename: "{year}-{month}-{day}-{primary}.md"
+    type: collection
+    view:
+      fields: [title, date, categories]
+    fields:
+      - name: title
+        label: Judul
+        type: string
+        required: true
+      - name: categories
+        label: Kategori
+        type: select
+        options:
+          values: [Politik, Ekonomi, Hukum, Sosial, Opini, Investigasi]
+      - name: author
+        label: Penulis
+        type: string
+      - name: date
+        label: Tanggal
+        type: date
+      - name: excerpt
+        label: Ringkasan
+        type: text
+      - name: image
+        label: Foto Utama
+        type: image
+      - name: body
+        label: Isi Artikel
+        type: rich-text
