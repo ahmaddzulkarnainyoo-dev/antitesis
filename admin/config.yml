@@ -20,12 +20,10 @@ collections:
         name: "categories"
         widget: "select"
         options: ["Politik", "Ekonomi", "Hukum", "Sosial", "Opini", "Investigasi"]
-        multiple: false
       - { label: "Penulis", name: "author", widget: "string" }
       - { label: "Jabatan Penulis", name: "author_role", widget: "string", required: false }
-      - { label: "Tanggal Terbit", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: "HH:mm:ss" }
-      - { label: "Ringkasan (Deck)", name: "excerpt", widget: "text" }
+      - { label: "Tanggal Terbit", name: "date", widget: "datetime" }
+      - { label: "Ringkasan", name: "excerpt", widget: "text" }
       - { label: "Foto Utama", name: "image", widget: "image", required: false }
-      - { label: "Keterangan Foto", name: "image_caption", widget: "string", required: false }
       - { label: "Estimasi Baca (menit)", name: "read_time", widget: "number", required: false }
       - { label: "Isi Artikel", name: "body", widget: "markdown" }
