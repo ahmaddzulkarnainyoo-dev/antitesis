@@ -5,6 +5,7 @@ author: ahmad dzulkarnain
 date: 2026-03-23
 excerpt: Setiap kali regulasi digital dibahas, kita selalu datang terlambat.
   Bukan karena tidak tahu, tapi karena tidak diajak bicara sejak awal.
+image: /assets/img/uploads/thermis.jpg
 ---
 Setiap kali regulasi digital dibahas, kita selalu datang terlambat. Bukan karena tidak tahu, tapi karena memang tidak diajak bicara sejak awal.
 
